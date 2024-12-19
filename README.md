@@ -14,6 +14,23 @@ The EDA is done in a jupyter notebook called Health_eda.ipynb
 In this task, the python libraries were imported as alias.
 The data was inspected with the pandas.
 
+### Columns of Description: 
+
+- age: Shows ages of participants within the dataset. 
+- sex:  Indicates the gender of participants (male as 1 and female as 0).
+- cp (chest pain type): Represents different types of chest pain experienced by participants, categorized into multiple types.
+- trestbps (resting blood pressure):  Displays the distribution of resting blood pressure values among participants.
+- chol (serum cholesterol): Shows the distribution of cholesterol levels.
+- fbs (fasting blood sugar): Represents fasting blood sugar levels, indicating whether levels are above or below a certain threshold.
+- restecg (resting electrocardiographic results): Indicates the results of resting electrocardiograms.
+thalach (maximum heart rate achieved):  Shows the distribution of maximum heart rates achieved during exercise testing.
+- exang (exercise induced angina): Indicates the presence (1) or absence (0) of angina induced by exercise.
+- oldpeak:  Represents the amount of ST depression induced by exercise relative to rest.
+- slope:  Indicates the slope of the peak exercise ST segment.
+- ca (number of major vessels colored by fluoroscopy):  Indicates how many participants have varying numbers of affected vessels.
+- thal(thalassemia status):  Represents the thalassemia status of participants.
+- heart_disease: The target variable indicating the presence (1) or absence (0) of heart disease.
+
 ## Task 2:
 ### Handle Misrepresented Data in columns
 - Found the ? in the ca column, replace it the mode of the ca column and casted the data type to a float.
