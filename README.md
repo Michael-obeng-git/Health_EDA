@@ -6,7 +6,7 @@ This project is an Exploratory Data Analysis (EDA) on heart disease dataset, the
 The data contains information on heart health indicators, including demographic, clinical, 
 and lifestyle variables.
 
-The EDA is done in a jupyter notebook called Health_EDA.ipynb
+The EDA is done in a jupyter notebook called Health_eda.ipynb
 
 
 ## Task 1:
@@ -16,8 +16,8 @@ The data was inspected with the pandas.
 
 ## Task 2:
 ### Handle Misrepresented Data in columns
-- Found the ? in the ca column, replace it the mode of the ca column and casted the data type to a float_ 
-- Found the ? in the thal column, replace it the mode of the thal column and casted the data type to a float_ 
+- Found the ? in the ca column, replace it the mode of the ca column and casted the data type to a float.
+- Found the ? in the thal column, replace it the mode of the thal column and casted the data type to a float. 
 
 ### Duplicates
 *There were no duplicates in the data*
@@ -33,7 +33,7 @@ This will make heart_disease column easy to analyze and draw conclusions.
 
 ## Task 4:
 
-- The conclusion drawn from this correlation matrix is that, there are low correlation between the age, sex and the heart disease. But there are slightly higher correlation between cp, exang, oldpeak, ca and thal to the heart disease on this a *_conclusion can be drawn that heart disease is more dependent on the lifestyle instead of the age and sex._*
+- The conclusion drawn from the correlation matrix is that, there are low correlation between the age, sex and the heart disease. But there are slightly higher correlation between cp, exang, oldpeak, ca and thal to the heart disease on this a *_conclusion can be drawn that heart disease is more dependent on the lifestyle instead of the age and sex._*
 
 ### Pandas CrossTab 
 The conclusion draw from the crosstab shown that there is a chance of a male getting a heart disease than a female_
