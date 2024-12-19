@@ -38,7 +38,7 @@ This will make heart_disease column easy to analyze and draw conclusions.
 _The conclusion draw from the crosstab shown that there is a chance of a male getting a heart disease than a female_
 
 ## Task 5:
-In this pair plot, we are looking for patterns between the two color groups. Looking at the density plots along the diagonal, there are no features that cleanly separate the groups (age has the most separation). However, looking at the scatterplot for age and thalach (maximum heart rate from an exercise test), there is more clear separation. It appears that patients who are old and have low thalach are more likely to be diagnosed with heart disease than patients who are young and have high thalach. This suggests that we want to make sure both of these features are included in our model.
+In the pair plot, we are looking for patterns between the two color groups. Looking at the density plots along the diagonal, there are no features that cleanly separate the groups (age has the most separation). However, looking at the scatterplot for age and thalach (maximum heart rate from an exercise test), there is more clear separation. It appears that patients who are old and have low thalach are more likely to be diagnosed with heart disease than patients who are young and have high thalach. This suggests that we want to make sure both of these features are included in our model.
 
 ## Task 6: Communication of Insights
 
